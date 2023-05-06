@@ -1,0 +1,182 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07def1;
+  
+  }
+  
+  .parent_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: auto; /* Added this line to center the div horizontally */
+  }
+  .data{
+    width:100%;
+    align-items: center;
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    height: auto;
+    z-index: 999;
+    background-color: #0077cc;
+  }
+  .available_room {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #66bb6a;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .parent_container label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .parent_container input,
+  .parent_container select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .parent_container select {
+    width: 150px;
+  }
+  
+  .parent_container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .parent_container button:hover {
+    background-color: #005fa3;
+  }
+  
+
+  /* ============================================== */
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    margin-top: 0;
+  }
+  
+
+
+  .data_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+  
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.modal-content{
+  border-radius: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.data_div {
+  display: table;
+  width: 100%;
+}
+
+.data_div p {
+  display: table-cell;
+  padding: 5px;
+  border: 1px solid black;
+}

@@ -1,0 +1,57 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.search_inp {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.room_container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.available_rooms {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 80%;
+  max-width: 400px;
+}
+
+.available_rooms:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.available_rooms h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.available_rooms p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #666;
+}
+/* ==============================modal  */
