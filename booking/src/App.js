@@ -151,6 +151,8 @@ function App() {
 				</select>
 
 				<button type="submit">Book Now</button>
+				<p color="green">{BoookedStatus}</p>
+
 			</form>
 
 
@@ -187,6 +189,7 @@ function App() {
 					</form>
 				</div>
 			</div>
+
 
 
 		</>
